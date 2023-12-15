@@ -1,0 +1,24 @@
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.color-purple{
+    color:color-mix(in srgb, #A333F5 100%, #5E26CE 100%)
+}
+
+.color-primary-500{
+    color: #5E26CE;
+}
+

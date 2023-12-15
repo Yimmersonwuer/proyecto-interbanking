@@ -1,0 +1,49 @@
+:root{
+    --black-white-100: #3B3B44;
+    --black-white-50: #F4F5F9;
+}
+
+
+body {
+    font-family:'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    --padding-container: 1.5rem; 
+    padding-left: var(--padding-container) ;
+    padding-right: var(--padding-container);
+    height: 100%;
+}
+
+.header{
+    font-size: 0px;
+    height: 60px;
+}
+
+.hero{
+    background-color: var(--black-white-50) ;
+    margin-top: 0;
+}
+
+.hero-tittle{
+    font-size: 40px;
+    line-height: 42.76px;
+    color: var(--black-white-100);
+    font-weight: 900;
+}
+
+.hero-subtittle{
+    color: var(--black-white-100);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22.94px;
+}
+
+.card{
+    border-radius: 12.41px;
+    box-shadow:0px 0.9924356937408447px 9.924356460571289px 0px #7090B026;
+}
