@@ -4,6 +4,7 @@
     --white: #FFFFFF;
     --grey-neutro: #7A8285;
     --grey: #EEEEEE;
+    --primary-color: #5E26CE;
 }
 
 
@@ -39,9 +40,6 @@ h6 {
     padding-bottom: 2rem;
 }
 
-.our-solutions-title {
-    margin: 0;
-}
 
 .hero-title {
     font-size: 40px;
@@ -58,20 +56,21 @@ h6 {
     line-height: 22.94px;
 }
 
+/*SECTION 1*/
+
 .card {
     border-radius: 12.41px;
     box-shadow: 0px 0.9924356937408447px 9.924356460571289px 0px #7090B026;
     background-color: var(--white);
 }
 
-.our-solutions-title {
+.section-title {
     text-transform: uppercase;
     text-align: center;
     font-weight: 900;
     font-size: 24px;
     line-height: 25.66px;
     color: var(--black-white-100);
-    margin-top: 4rem;
 }
 
 .our-solutions-img {
@@ -102,10 +101,10 @@ h6 {
     color: var(--grey-neutro);
 }
 
-.our-solutions-item-text-400 {
+.item-text-400 {
     font-size: 12px;
     font-weight: 400;
-    line-height: 17.87px;
+    line-height: 22.6px;
     color: var(--grey-neutro);
     padding-right: 1.5rem;
 }
@@ -164,7 +163,7 @@ h6 {
 }
 
 .btn-details {
-    border: 1px solid #5E26CE;
+    border: 1px solid var(--primary-color);
     background-color: transparent;
     font-weight: bold;
     font-size: 15px;
@@ -176,12 +175,56 @@ h6 {
     font-weight: 400;
 }
 
-.our-solutions-link{
+.our-solutions-link {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-.link-container{
+.link-container {
     margin-top: 2rem;
+}
+
+/*SECTION 2*/
+
+.testimonos-container {
+    background: var(--black-white-50);
+    padding-bottom: 2rem;
+}
+
+.testimonios{
+    padding-top: 2rem;
+
+}
+
+.testimonios-icon-container {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    padding: 12.5px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonios-icon {
+    width: 19px;
+    height: 15px;
+}
+
+
+.testimonios-text-container {
+    width: 343px;
+    height: 180px;
+    border-radius: 25px;
+    border: 1px solid var(--grey);
+    background: #FDFDFE;
+    margin: auto;
+    padding: 1.5rem;
+    margin-top: -1rem;
+}
+
+.testimonios-text-span{
+    color: var(--primary-color);
+    font-weight: 700;
 }
