@@ -56,6 +56,19 @@ h6 {
     line-height: 22.94px;
 }
 
+.hero-img{
+    position: relative;
+}
+
+.pc{
+    z-index: 1;
+}
+
+.elip{
+    position: absolute;
+    left: 30px;
+}
+
 /*SECTION 1*/
 
 .card {
@@ -84,8 +97,7 @@ h6 {
 .our-solutions-item-container {
     padding: 1.5rem;
     padding-top: 4rem;
-    margin-top: -2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .our-solutions-item-title {
@@ -227,4 +239,9 @@ h6 {
 .testimonios-text-span{
     color: var(--primary-color);
     font-weight: 700;
+}
+
+
+.border-top-line{
+    border-top: 14px solid gray;
 }
