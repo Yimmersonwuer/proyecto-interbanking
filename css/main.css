@@ -21,12 +21,6 @@ h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-    --padding-container: 1.5rem;
-    padding-left: var(--padding-container);
-    padding-right: var(--padding-container);
-    height: 100%;
-}
 
 .header {
     font-size: 0px;
@@ -40,6 +34,10 @@ h6 {
     padding-bottom: 2rem;
 }
 
+.hero-elip{
+    right: 0px;
+    top: 350px;
+}
 
 .hero-title {
     font-size: 40px;
@@ -56,7 +54,26 @@ h6 {
     line-height: 22.94px;
 }
 
+.hero-img{
+    position: relative;
+}
+
+
+.hero-img-elip{
+    position: absolute;
+    left: 30px;
+}
+
 /*SECTION 1*/
+
+.our-solutions-img-Rectangle{
+    left: 0;
+    top: 80px;
+}
+
+.our-solutions-img-item{
+    left: 30px;
+}
 
 .card {
     border-radius: 12.41px;
@@ -83,7 +100,6 @@ h6 {
 
 .our-solutions-item-container {
     padding: 1.5rem;
-    padding-top: 4rem;
     margin-top: -2rem;
     padding-bottom: 1rem;
 }
@@ -166,13 +182,15 @@ h6 {
     border: 1px solid var(--primary-color);
     background-color: transparent;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 0.5px;
     border-radius: 3px;
     padding: 10px 30px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    width: 181px;
+    height: 41px;
 }
 
 .our-solutions-link {
@@ -185,11 +203,19 @@ h6 {
     margin-top: 2rem;
 }
 
+.border-top-line{
+    border-top: 14px solid gray;
+}
+
 /*SECTION 2*/
 
 .testimonos-container {
     background: var(--black-white-50);
     padding-bottom: 2rem;
+}
+
+.testimonios-icon-line{
+    left: 92.5px;
 }
 
 .testimonios{
@@ -203,8 +229,8 @@ h6 {
     border-radius: 50%;
     background: var(--primary-color);
     padding: 12.5px;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    left: 70px;
+    z-index: 2;
 }
 
 .testimonios-icon {
@@ -222,6 +248,8 @@ h6 {
     margin: auto;
     padding: 1.5rem;
     margin-top: -1rem;
+    margin-bottom: 4rem;
+    position: relative;
 }
 
 .testimonios-text-span{

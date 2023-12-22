@@ -18,7 +18,7 @@
 <body>
     <header class="main-header">
         <div class="header">
-            <div class="container d-flex justify-between align-center">
+            <div class="p-container d-flex justify-between align-center">
                 <h1 class="header-logo">
                     <img src="./resources/logo.png" alt="logo">
                     interbanking
@@ -28,8 +28,8 @@
                 </div>
             </div>
         </div>
-        <div class="hero">
-            <div class="container">
+        <div class="hero p-relative">
+            <div class="p-container">
                 <div class="hero-description">
                     <h2 class="hero-title">LA <br><span class="color-purple">EVOLUCION</span><br> DE TU <br>GESTIÓN
                         <br> FINANCIERA
@@ -37,34 +37,35 @@
                     <h3 class="hero-subtitle">Todas las soluciones bancarias para tu negocio en una misma plataforma
                     </h3>
                 </div>
-                <div class="hero-img d-flex justify-center">
-                    <img src="./resources/img1.png" alt="Screen">
+                <div class="hero-img d-flex justify-center p-relative">
+                    <img class="z-index-1" src="./resources/img1.png" alt="Screen">
+                    <img class="hero-img-elip p-absolute" src="./resources/Ellipse 2.png" alt="Ellipse2">
                 </div>
             </div>
-
+            <div>
+                <img class="hero-elip p-absolute" src="./resources/Ellipse 1.png" alt="Ellipse1">
+            </div>
         </div>
     </header>
 
     <main>
         <div class="main">
             <div class="container">
-
-                    
                 <!--SECTION 1: NUESTRAS SOLUCIONES-->
                 <section class="our-solutions">
                     <div class="our-solutions-container">
-                        <div class="our-solutions margin-top">
+                        <div class="our-solutions mt-1">
                             <h2 class="section-title">nuestras <br>soluciones</h2>
                         </div>
-                        <div class="our-solutions-img">
-                            <img src="./resources/img2.png" alt="img2">
+                        <div class="our-solutions-img  p-relative">
+                            <img class="z-index-2 our-solutions-img-item p-absolute" src="./resources/img2.png" alt="img2">
+                            <img class="our-solutions-img-Rectangle z-index-0 p-absolute" src="./resources/Rectangle1.png" alt="Rectangle1">
                         </div>
                     </div>
 
-                    
                     <!--NS ARTICULO 1-->
-                    <article class="our-solutions-item">
-                        <div class="our-solutions-item-container card">
+                    <article class="our-solutions-item  z-index-1 p-container">
+                        <div class="our-solutions-item-container card pt-2">
                             <div class="our-solutions-item-title-container">
                                 <h2 class="color-primary-500 our-solutions-item-title">Banca Digital</h2>
                                 <h3 class="our-solutions-item-subtitle">Smart Banking: Más simple. <br>Más eficiente.
@@ -119,20 +120,21 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="btn-container">
-                                <button class="btn-details color-primary-500">CONOCER MAS</button><br>
+                            <div class="btn-container d-flex d-flex-column">
+                                <button class="btn-details color-primary-500 mw-1">CONOCER MAS</button>
                                 <a class="our-solutions-link" href="">VER PLANES ></a>
                             </div>
                         </div>
                     </article>
 
-                    <div class="our-solutions-img margin-top margin-bottom">
-                        <img src="./resources/img3.png" alt="img3">
+                    <div class="our-solutions-img mt-1 mb-1 p-relative">
+                        <img class="z-index-2 our-solutions-img-item p-absolute" src="./resources/img3.png" alt="img3">
+                        <img class="our-solutions-img-Rectangle z-index-0 p-absolute" src="./resources/Rectangle2.png" alt="">
                     </div>
 
                     <!--NS ARTICULO 2-->
-                    <article class="our-solutions-item">
-                        <div class="our-solutions-item-container card">
+                    <article class="our-solutions-item p-container">
+                        <div class="our-solutions-item-container card pt-2 z-index-1">
                             <div>
                                 <h2 class="color-primary-500 our-solutions-item-title">Pagos y cobranzas</h2>
                                 <h3 class="our-solutions-item-subtitle">Ordená tu gestión</h3>
@@ -187,8 +189,8 @@
                                             clientes y eficientizá las comunidades de pagos.</p>
                                     </div>
                                 </div>
-                                <div class="btn-container">
-                                    <button class="btn-details color-primary-500">CONOCER MAS</button><br>
+                                <div class="btn-container d-flex d-flex-column">
+                                    <button class="btn-details color-primary-500">CONOCER MAS</button>
                                     <a class="our-solutions-link" href="">VER PLANES ></a>
                                 </div>
                             </div>
@@ -196,8 +198,8 @@
                     </article>
 
                     <!--NS ARTICULO 3-->
-                    <article class="our-solutions-item">
-                        <div class="our-solutions-item-container card margin-top padding-top">
+                    <article class="our-solutions-item p-container">
+                        <div class="our-solutions-item-container card mt-1 pt-1 border-top-line border-green">
                             <div>
                                 <img src="./resources/img4.png" alt="img4">
                             </div>
@@ -218,8 +220,8 @@
                     </article>
 
                     <!--NS ARTICULO 4-->
-                    <article class="our-solutions-item">
-                        <div class="our-solutions-item-container card margin-top padding-top">
+                    <article class="our-solutions-item p-container">
+                        <div class="our-solutions-item-container card mt-1 pt-1 border-top-line border-blue">
                             <div>
                                 <img src="./resources/img5.png" alt="img5">
                             </div>
@@ -241,21 +243,22 @@
 
                 <!--SECTION 2: TESTIMONIOS-->
                 <section>
-                    <div class="testimonos-container margin-top">
-                        <div class="testimonios">
+                    <div class="testimonos-container mt-1">
+                        <div class="testimonios mb-2">
                             <h2 class="section-title color-primary-500">TESTIMONIO</h2>
                         </div>
-                        <div class="testimonios-icon-container">
+                        <img class="p-absolute testimonios-icon-line" src="./resources/Ellipse 103.png" alt="">
+                        <div class="testimonios-icon-container p-absolute">
                             <img class="testimonios-icon" src="./resources/icon7.png" alt="icon7">
                         </div>
-                        <div class="testimonios-text-container">
+                        <div class="testimonios-text-container z-index-1">
                            <p class="item-text-400">
                             Por fin puedo seguir la trazabilidad de nuestra plata y entender mejor nuestros números.<br>
                             <span class="testimonios-text-span">Dueño de PyMe</span><br>
                             Juan Alvarado
                            </p> 
                         </div>
-                        <div class="testimonios-icon-container">
+                        <div class="testimonios-icon-container p-absolute">
                             <img class="testimonios-icon" src="./resources/icon7.png" alt="icon7">
                         </div>
                         <div class="testimonios-text-container">
@@ -266,7 +269,7 @@
                             Álvaro Cosentino
                             </p>
                         </div>
-                        <div class="testimonios-icon-container">
+                        <div class="testimonios-icon-container p-absolute">
                             <img class="testimonios-icon" src="./resources/icon7.png" alt="icon7">
                         </div>
                         <div class="testimonios-text-container">
@@ -276,7 +279,7 @@
                             Clara Sánchez
                             </p>
                         </div>
-                        <div class="testimonios-icon-container">
+                        <div class="testimonios-icon-container p-absolute">
                             <img class="testimonios-icon" src="./resources/icon7.png" alt="icon7">
                         </div>
                         <div class="testimonios-text-container">
