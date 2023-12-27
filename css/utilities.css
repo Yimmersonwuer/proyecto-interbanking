@@ -45,8 +45,24 @@
     font-weight: 700;
 }
 
+.font-900{
+    font-weight: 900;
+}
+
+.mt-0{
+    margin-top: 0;
+}
+
 .mt-1 {
     margin-top: 4rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-0{
+    margin-bottom: 0;
 }
 
 .mb-1 {
@@ -63,6 +79,18 @@
 
 .pt-2{
     padding-top: 4rem;
+}
+
+.pb-2{
+    padding-bottom: 2rem;
+}
+
+.pr-0{
+    padding-right: 0;
+}
+
+.backgroud-bw-50{
+    background: #F4F5F9;
 }
 
 .p-absolute{
@@ -91,4 +119,21 @@
 
 .border-blue{
     border-color: #74ABD1;
+}
+
+.font-size-35{
+    font-size: 35px;
+}
+
+.font-size-15{
+    font-size: 15px;
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.remove-bg{
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }

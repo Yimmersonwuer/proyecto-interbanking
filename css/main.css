@@ -209,13 +209,8 @@ h6 {
 
 /*SECTION 2*/
 
-.testimonos-container {
-    background: var(--black-white-50);
-    padding-bottom: 2rem;
-}
-
 .testimonios-icon-line{
-    left: 92.5px;
+    left: 88px;
 }
 
 .testimonios{
@@ -231,6 +226,8 @@ h6 {
     padding: 12.5px;
     left: 70px;
     z-index: 2;
+    left: 20px;
+    top: -24px
 }
 
 .testimonios-icon {
@@ -255,4 +252,61 @@ h6 {
 .testimonios-text-span{
     color: var(--primary-color);
     font-weight: 700;
+}
+
+/*SECTION 3*/
+
+.why-us-users{
+    background: var(--primary-color);
+    height: 138px;
+}
+
+.users-elip-long{
+    right: 0;
+    bottom: 0;
+}
+
+.users-elip-short{
+    left: 0;
+    top: 32px;
+}
+
+.why-us-users-number{
+    font-size: 68.59px;
+    color: var(--white);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.why-us-users-text{
+    font-size: 16px;
+    color: var(--white);
+}
+
+.why-us-data-item-number{
+    font-size: 69.8px;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.why-us-data-item{
+    width: 220px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--black-white-100);
+}
+
+.why-us-institutions{
+    height: 365px;
+}
+
+.why-us-institutions-item{
+    width: 200px;
+    text-align: center;
+    line-height: 22.9px;
+    color: var(--black-white-100);
+}
+
+.why-us-institutions-item-text{
+    width: 315px;
 }
