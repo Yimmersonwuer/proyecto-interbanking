@@ -310,3 +310,70 @@ h6 {
 .why-us-institutions-item-text{
     width: 315px;
 }
+
+/*SECTION 4:*/
+
+.interbankear-gratuito-container{
+    border-radius: 25px;
+    border: 1px solid var(--grey);
+    padding: 15px;
+}
+
+.interbankear-title{
+    width: 310px;
+    font-size: 30px;
+}
+
+.interbankear-box-container{
+  padding: 15px;
+}
+
+.interbankear-box-title-container{
+  border: 1px solid rgb(233, 231, 231);
+  border-radius: 15px;
+  padding: 0px 20px;
+}
+
+.interbankear-box-title{
+  font-weight: 700;
+  font-size: 20px;
+  margin: 15px 0px;
+  color: rgb(29, 27, 27);
+  letter-spacing: -0.5px;
+}
+
+.interbankear-items-container{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button-box{
+  padding: 10px 0px;
+}
+
+.button-details{
+  color:var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 3px;
+  padding: 10px 30px;
+}
+
+.elip-5{
+    right: 0;
+    top: -150px;
+    z-index: -2;
+}
+
+.elip-container{
+    width: 100%;
+}
+
+.elip-6{
+    left: -67px;
+    z-index: -2;
+    top: -85px;
+}
