@@ -5,6 +5,7 @@
     --grey-neutro: #7A8285;
     --grey: #EEEEEE;
     --primary-color: #5E26CE;
+    --ligth: #ffffff;
 }
 
 
@@ -34,7 +35,7 @@ h6 {
     padding-bottom: 2rem;
 }
 
-.hero-elip{
+.hero-elip {
     right: 0px;
     top: 350px;
 }
@@ -54,24 +55,24 @@ h6 {
     line-height: 22.94px;
 }
 
-.hero-img{
+.hero-img {
     position: relative;
 }
 
 
-.hero-img-elip{
+.hero-img-elip {
     position: absolute;
     left: 30px;
 }
 
 /*SECTION 1*/
 
-.our-solutions-img-Rectangle{
+.our-solutions-img-Rectangle {
     left: 0;
     top: 80px;
 }
 
-.our-solutions-img-item{
+.our-solutions-img-item {
     left: 30px;
 }
 
@@ -203,17 +204,17 @@ h6 {
     margin-top: 2rem;
 }
 
-.border-top-line{
+.border-top-line {
     border-top: 14px solid gray;
 }
 
 /*SECTION 2*/
 
-.testimonios-icon-line{
+.testimonios-icon-line {
     left: 88px;
 }
 
-.testimonios{
+.testimonios {
     padding-top: 2rem;
 
 }
@@ -249,131 +250,153 @@ h6 {
     position: relative;
 }
 
-.testimonios-text-span{
+.testimonios-text-span {
     color: var(--primary-color);
     font-weight: 700;
 }
 
 /*SECTION 3*/
 
-.why-us-users{
+.why-us-users {
     background: var(--primary-color);
     height: 138px;
 }
 
-.users-elip-long{
+.users-elip-long {
     right: 0;
     bottom: 0;
 }
 
-.users-elip-short{
+.users-elip-short {
     left: 0;
     top: 32px;
 }
 
-.why-us-users-number{
+.why-us-users-number {
     font-size: 68.59px;
     color: var(--white);
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.why-us-users-text{
+.why-us-users-text {
     font-size: 16px;
     color: var(--white);
 }
 
-.why-us-data-item-number{
+.why-us-data-item-number {
     font-size: 69.8px;
     margin-bottom: 0;
     margin-top: 1.5rem;
 }
 
-.why-us-data-item{
+.why-us-data-item {
     width: 220px;
     text-align: center;
     font-size: 13px;
     color: var(--black-white-100);
 }
 
-.why-us-institutions{
+.why-us-institutions {
     height: 365px;
 }
 
-.why-us-institutions-item{
+.why-us-institutions-item {
     width: 200px;
     text-align: center;
     line-height: 22.9px;
     color: var(--black-white-100);
 }
 
-.why-us-institutions-item-text{
+.why-us-institutions-item-text {
     width: 315px;
 }
 
 /*SECTION 4:*/
 
-.interbankear-gratuito-container{
+.interbankear-gratuito-container {
     border-radius: 25px;
     border: 1px solid var(--grey);
     padding: 15px;
 }
 
-.interbankear-title{
+.interbankear-title {
     width: 310px;
     font-size: 30px;
 }
 
-.interbankear-box-container{
-  padding: 15px;
+.interbankear-box-container {
+    padding: 15px;
 }
 
-.interbankear-box-title-container{
-  border: 1px solid rgb(233, 231, 231);
-  border-radius: 15px;
-  padding: 0px 20px;
+.interbankear-box-title-container {
+    border: 1px solid rgb(233, 231, 231);
+    border-radius: 15px;
+    padding: 0px 20px;
 }
 
-.interbankear-box-title{
-  font-weight: 700;
-  font-size: 20px;
-  margin: 15px 0px;
-  color: rgb(29, 27, 27);
-  letter-spacing: -0.5px;
+.interbankear-box-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0px;
+    color: rgb(29, 27, 27);
+    letter-spacing: -0.5px;
 }
 
-.interbankear-items-container{
-  list-style: none;
-  padding-left: 0px;
+.interbankear-items-container {
+    list-style: none;
+    padding-left: 0px;
 }
 
-.button-box{
-  padding: 10px 0px;
+.button-box {
+    padding: 10px 0px;
 }
 
-.button-details{
-  color:var(--primary-color);
-  border: 1px solid var(--primary-color);
-  background-color: transparent;
-  font-weight: bold;
-  font-size: 15px;
-  letter-spacing: 0.5px;
-  border-radius: 3px;
-  padding: 10px 30px;
+.button-details {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    padding: 10px 30px;
 }
 
-.elip-5{
+.elip-5 {
     right: 0;
     top: -150px;
     z-index: -2;
 }
 
-.elip-container{
+.elip-container {
     width: 100%;
 }
 
-.elip-6{
+.elip-6 {
     left: -67px;
     z-index: -2;
     top: -85px;
+}
+
+/*FOOTER*/
+
+.footer-container {
+    background: #130429;
+    height: 525px;
+    color: var(--ligth);
+    padding: 40px;
+}
+
+.footer-data-container {
+    background: #000000;
+    padding: 15.5px;
+}
+
+.footer-data {
+    color: var(--ligth);
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
 }
