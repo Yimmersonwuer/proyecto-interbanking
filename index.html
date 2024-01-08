@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./media-query/media-768.css">
 </head>
 
 <body>
@@ -29,16 +30,16 @@
             </div>
         </div>
         <div class="hero p-relative">
-            <div class="p-container">
+            <div class="hero-grid p-container">
                 <div class="hero-description">
-                    <h2 class="hero-title">LA <br><span class="color-purple">EVOLUCION</span><br> DE TU <br>GESTIÓN
-                        <br> FINANCIERA
+                    <h2 class="hero-title">LA <span class="color-purple">EVOLUCION</span> DE TU GESTIÓN
+                        FINANCIERA
                     </h2>
                     <h3 class="hero-subtitle">Todas las soluciones bancarias para tu negocio en una misma plataforma
                     </h3>
                 </div>
-                <div class="hero-img d-flex justify-center p-relative">
-                    <img class="z-index-1" src="./resources/img1.png" alt="Screen">
+                <div class="hero-img-container d-flex justify-center p-relative">
+                    <img class="z-index-1 hero-img" src="./resources/img1.png" alt="Screen">
                     <img class="hero-img-elip p-absolute" src="./resources/Ellipse 2.png" alt="Ellipse2">
                 </div>
             </div>
@@ -54,8 +55,8 @@
                 <!--SECTION 1: NUESTRAS SOLUCIONES-->
                 <section class="our-solutions">
                     <div class="our-solutions-container">
-                        <div class="our-solutions mt-1">
-                            <h2 class="section-title">nuestras <br>soluciones</h2>
+                        <div class="our-solutions-title d-flex justify-center mt-1">
+                            <h2 class="section-title">nuestras soluciones</h2>
                         </div>
                         <div class="our-solutions-img  p-relative">
                             <img class="z-index-2 our-solutions-img-item p-absolute" src="./resources/img2.png"
@@ -68,64 +69,67 @@
                     <!--NS ARTICULO 1-->
                     <article class="our-solutions-item  z-index-1 p-container">
                         <div class="our-solutions-item-container card pt-2">
-                            <div class="our-solutions-item-title-container">
-                                <h2 class="color-primary-500 our-solutions-item-title">Banca Digital</h2>
-                                <h3 class="our-solutions-item-subtitle">Smart Banking: Más simple. <br>Más eficiente.
-                                    Más Seguro.</h3>
-                            </div>
-                            <div>
-                                <p class="item-text-400">
-                                    Centralizá la operatoria de todos tus bancos en nuestra plataforma y empezá a
-                                    interbankear de
-                                    una manera más inteligente. Las herramientas de Interbanking se integran a la
-                                    gestión
-                                    financiera
-                                    y administrativa de tu empresa para que puedas ahorrar tiempo y liberar esfuerzos de
-                                    los
-                                    equipos.
-                                </p>
-                                <p class="our-solutions-item-text-700">
-                                    Automatizá tareas, administrá permisos, utilizá una clave única y mucho más.
-                                </p>
-                            </div>
-                            <div>
-                                <div class="d-flex our-solutions-item-list-container">
-                                    <div class="our-solutions-item-list-icon-container">
-                                        <img class="our-solutions-item-list-icon" src="./resources/icon1.png"
-                                            alt="icon1">
+                            <div class="our-solutions-item-box">
+                                <div class="our-solutions-item-title-container">
+                                    <h2 class="color-primary-500 our-solutions-item-title">Banca Digital</h2>
+                                    <h3 class="our-solutions-item-subtitle">Smart Banking: Más simple. Más eficiente.
+                                        Más Seguro.</h3>
+                                </div>
+                                <div>
+                                    <p class="item-text-400">
+                                        Centralizá la operatoria de todos tus bancos en nuestra plataforma y empezá a
+                                        interbankear de
+                                        una manera más inteligente. Las herramientas de Interbanking se integran a la
+                                        gestión
+                                        financiera
+                                        y administrativa de tu empresa para que puedas ahorrar tiempo y liberar esfuerzos de
+                                        los
+                                        equipos.
+                                    </p>
+                                    <p class="our-solutions-item-text-700">
+                                        Automatizá tareas, administrá permisos, utilizá una clave única y mucho más.
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="d-flex our-solutions-item-list-container">
+                                        <div class="our-solutions-item-list-icon-container">
+                                            <img class="our-solutions-item-list-icon" src="./resources/icon1.png"
+                                                alt="icon1">
+                                        </div>
+                                        <div class="our-solutions-item-list-text-container">
+                                            <h3 class="our-solutions-item-list-title">One Banking</h3>
+                                            <p class="our-solutions-item-list-text">Una plataforma. Todos tus bancos.</p>
+                                        </div>
                                     </div>
-                                    <div class="our-solutions-item-list-text-container">
-                                        <h3 class="our-solutions-item-list-title">One Banking</h3>
-                                        <p class="our-solutions-item-list-text">Una plataforma. Todos tus bancos.</p>
+                                    <div class="d-flex our-solutions-item-list-container">
+                                        <div class="our-solutions-item-list-icon-container">
+                                            <img class="our-solutions-item-list-icon" src="./resources/icon2.png"
+                                                alt="icon2">
+                                        </div>
+                                        <div class="our-solutions-item-list-text-container">
+                                            <h3 class="our-solutions-item-list-title">Trazabilidad</h3>
+                                            <p class="our-solutions-item-list-text">Visualizá tu dinero de punta a punta.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex our-solutions-item-list-container">
+                                        <div class="our-solutions-item-list-icon-container">
+                                            <img class="our-solutions-item-list-icon" src="./resources/icon3.png"
+                                                alt="icon3">
+                                        </div>
+                                        <div class="our-solutions-item-list-text-container">
+                                            <h3 class="our-solutions-item-list-title">Confianza</h3>
+                                            <p class="our-solutions-item-list-text">Innovamos para que te liberes de ciertas
+                                                tareas.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="d-flex our-solutions-item-list-container">
-                                    <div class="our-solutions-item-list-icon-container">
-                                        <img class="our-solutions-item-list-icon" src="./resources/icon2.png"
-                                            alt="icon2">
-                                    </div>
-                                    <div class="our-solutions-item-list-text-container">
-                                        <h3 class="our-solutions-item-list-title">Trazabilidad</h3>
-                                        <p class="our-solutions-item-list-text">Visualizá tu dinero de punta a punta.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="d-flex our-solutions-item-list-container">
-                                    <div class="our-solutions-item-list-icon-container">
-                                        <img class="our-solutions-item-list-icon" src="./resources/icon3.png"
-                                            alt="icon3">
-                                    </div>
-                                    <div class="our-solutions-item-list-text-container">
-                                        <h3 class="our-solutions-item-list-title">Confianza</h3>
-                                        <p class="our-solutions-item-list-text">Innovamos para que te liberes de ciertas
-                                            tareas.</p>
-                                    </div>
+                                <div class="btn-container d-flex d-flex-column">
+                                    <button class="btn-details color-primary-500 mw-1">CONOCER MAS</button>
+                                    <a class="our-solutions-link" href="">VER PLANES ></a>
                                 </div>
                             </div>
-                            <div class="btn-container d-flex d-flex-column">
-                                <button class="btn-details color-primary-500 mw-1">CONOCER MAS</button>
-                                <a class="our-solutions-link" href="">VER PLANES ></a>
-                            </div>
+                            
                         </div>
                     </article>
 
@@ -247,7 +251,7 @@
                 <!--SECTION 2: TESTIMONIOS-->
                 <section>
                     <div class="pb-2 backgroud-bw-50 mt-1">
-                        <div class="testimonios mb-2">
+                        <div class="testimonios d-flex justify-center mb-2">
                             <h2 class="section-title color-primary-500">TESTIMONIO</h2>
                         </div>
                         <img class="p-absolute testimonios-icon-line" src="./resources/Ellipse 103.png" alt="">
@@ -307,7 +311,7 @@
                 <!--SECTION 3: ¿POR QUE NOSOTROS?-->
                 <section>
                     <div class="why-us-conatiner">
-                        <div class="why-us-title mt-1">
+                        <div class="why-us-title d-flex justify-center mt-1">
                             <h3 class="section-title color-primary-500">¿POR QUÉ NOSOTROS?</h3>
                         </div>
 

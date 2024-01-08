@@ -1,5 +1,5 @@
 .p-container {
-    --padding-container: 1.5rem;
+    --padding-container: 2.5rem;
     padding-left: var(--padding-container);
     padding-right: var(--padding-container);
     height: 100%;
