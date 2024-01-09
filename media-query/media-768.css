@@ -1,23 +1,25 @@
 @media (min-width:768px) {
 
-    .header{
+    .header {
         position: relative;
         background: white;
         z-index: 1;
     }
-    .hero{
+
+    .hero {
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .hero-grid{
+
+    .hero-grid {
         display: grid;
-        grid-template-columns:  345px 320px;
+        grid-template-columns: 345px 320px;
         height: 207px;
     }
 
-    .hero-description{
+    .hero-description {
         width: 335px;
     }
 
@@ -25,23 +27,27 @@
         top: -68px;
         left: 193px;
     }
-    
+
     .hero-elip {
-        height: 519px;
-        right: -68px;
-        top: -122px;
-        width: 332px;
+        height: 450px;
+        right: 0px;
+        top: -70px;
+        width: 285px;
     }
-    
-    .section-title{
+
+    .our-solutions-container{
+        height: 145px;
+    }
+
+    .section-title {
         width: 100%;
     }
 
-    .our-solutions-item-subtitle{
+    .our-solutions-item-subtitle {
         width: auto;
     }
 
-    .btn-container{
+    .btn-container {
         display: flex;
         justify-content: space-between;
         width: 335px;
@@ -49,18 +55,97 @@
         flex-direction: row;
     }
 
-    .our-solutions-item-container{
+    .our-solutions-item-container {
         width: 604px;
+        padding-top: 0.5rem;
     }
 
-    .our-solutions-img-item {
-        top: 468px;
+    .our-solutions-img-item-media-768 {
+        top: 303px;
         width: 318px;
         left: 429px;
     }
-    
-    .our-solutions-item-box{
+
+
+    .our-solutions-img-Rectangle-media-768 {
+        z-index: 1;
+        top: 187px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        left: 485px;
+    }
+
+    .our-solutions-item-box {
         width: 470px;
     }
 
+    .our-solutions-item-text-700 {
+        width: 459px;
+    }
+
+    .our-solutions-grid{
+        display: grid;
+        grid-template-columns: 369px 369px;
+    }
+
+    .our-solutions-item-width-media-768{
+        width: 330px;
+    }
+
+    .our-solutions-article-img{
+        height: 137px;
+    }
+
+    .testimonios-item-grid{
+        grid-row-gap: 59px;
+        grid-column-gap: 60px;
+        display: grid;
+        justify-content: center ;
+        grid-template-columns: 341px 341px;
+        grid-template-rows: 180px 180px;
+    }
+
+    .testimonios-icon-line {
+        height: 394px;
+        left: 384px;
+    }
+
+    .why-us-data{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .why-us-institutions-item {
+        width: 700px;
+    }
+
+    .why-us-institutions-item-text {
+        width: 560px;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .why-us-institutions-img{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 560px;
+    }
+
+    .interbankear-box-item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ul-grid{
+        grid-column-gap: 30px;
+        display: grid;
+        grid-template-columns: 243px 190px 300px;
+        width: 650px;
+    }
+    
+    .interbankear-grid{
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: center;
+    }
 }

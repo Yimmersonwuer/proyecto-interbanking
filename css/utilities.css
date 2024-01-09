@@ -5,6 +5,10 @@
     height: 100%;
 }
 
+.list-style{
+    list-style-image: url(/resources/icon8.png)
+}
+
 .d-flex {
     display: flex;
 }
